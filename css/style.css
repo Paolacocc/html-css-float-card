@@ -38,12 +38,14 @@ img{
     width: 80px;
     float: left;
 }
+
 .col{
     width: calc((100% / 3) - (40px / 3));
     background-color: black;
     color: aliceblue;
-    border: 1px solid black;
+    
     float: left;
+    margin-bottom: 40px;
     
 }
 clearfix::after{
@@ -61,6 +63,7 @@ clearfix::after{
     
 }
 .email{
-    color: rgb(16, 122, 229);
+    color: rgb(73, 170, 249);
 }
+
 
